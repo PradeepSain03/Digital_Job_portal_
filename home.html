@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+<title>Job solution</title>
+</head>
+<body>
+    <section class="header">
+     <nav>
+       <a href="index.html"><img src="./image/logo.jpg" ></a>
+       <div class="nav-links" id="navLinks">
+        <i class="bi bi-x-circle-fill" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="./page/Jobs.html">JOBS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+           
+          </ul>
+       </div>
+       <i class="bi bi-list" onclick="showMenu()"></i>
+
+     </nav>
+
+     <div class="text-box">
+        <h1>Digital Recruitment Solution</h1>
+        <p>Your Dream Job is Waiting...</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+     </div>
+
+    </section>
+
+    <!--Benifits  -->
+
+    <section class="benift" id="about">
+         <h1>Why StudyMonk</h1>
+     
+         <div class="benift1">
+            <div class="benift2">
+              <img src="./image/benift8.jpg" class="beimg">
+              <h3>Millions Of Jobs</h3>
+              <p>Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.</p>
+
+            </div>
+            <div class="benift2">
+              <img src="./image/benift2.png" class="beimg">
+              <h3>Location Search</h3>
+              <p>Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.</p>
+              
+            </div>
+            <div class="benift2">
+              <img src="./image/benift9.jpg" class="beimg">
+              <h3>Top Careers </h3>
+              <p>Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.</p>
+              
+            </div>
+            
+
+         </div>
+
+    </section>
+<div class="test">
+  <h1>HR Experience</h1>
+</div>
+      <div class="wrapper">
+        <div class="testimonial-container" id="testimonial-container"></div>
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+    
+<section class="cta">
+  <h1>Enroll For Various Job Role</h1>
+  <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer" id="contact">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. amet ipsum praesentium eveniet ut quaerat in, nesciunt 
+    <br> Assumenda error asperiores, iusto cum reprehenderit vero ad animi.</p>
+
+    <div class="icons">
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-twitter"></i>
+  
+    </div>
+    <p>Made With <i class="bi bi-suit-heart"></i> by Pradeep</p>
+</section>
+    
+
+    <script>
+      
+      var navLinks=document.getElementById("navLinks");
+      
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+
+    </script>
+    <script src="./js/testimonial.js"></script>
+</body>
+</html>
